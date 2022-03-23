@@ -1,0 +1,24 @@
+.btnPrimary {
+  width: 185px;
+  height: 40px;
+  padding: 0;
+  background: linear-gradient(93.31deg, #006AD8 1.67%, #01ACB4 98.59%), rgba(196, 196, 196, 0.05);
+  backdrop-filter: blur(37px);
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.btnFirstBlock {
+  width: 142px;
+  height: 50px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: linear-gradient(93.31deg, #006AD8 1.67%, #01ACB4 98.59%), rgba(196, 196, 196, 0.05);
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

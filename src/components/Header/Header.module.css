@@ -1,0 +1,36 @@
+.header {
+  max-width: 1340px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px 24px 200px;
+}
+.header img {
+  width: 200px;
+  height: 49px;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  width: 46%;
+}
+.link a {
+  font-family: Roboto-Light, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #202731;
+  padding-right: 58px;
+}
+.link a:last-child {
+  padding-right: 0;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid rgba(32, 39, 49, 0.2);
+}
+
+/*# sourceMappingURL=Header.module.css.map */

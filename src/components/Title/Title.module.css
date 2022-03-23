@@ -1,0 +1,16 @@
+.title {
+  font-weight: 500;
+  font-size: 46px;
+  color: #181E25;
+}
+
+.titleFirstBlock {
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 110%;
+  color: #202731;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=Title.module.css.map */
