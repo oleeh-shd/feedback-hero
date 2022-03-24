@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: Gilroy;
+    src: url("../src/assets/fonts/Gilroy.otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: Roboto-Light;
+    src: url("../src/assets/fonts/Roboto-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url("../src/assets/fonts/Gilroy-Semibold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Gilroy, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+}
+

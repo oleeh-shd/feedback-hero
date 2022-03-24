@@ -1,0 +1,22 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  padding: 140px 60px 0 200px;
+
+  .wrapperText {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+
+    .wrapperFeatures {
+      padding-top: 6px;
+    }
+
+    .wrapperTextDescription {
+      width: 90%;
+      padding-top: 24px;
+    }
+  }
+}
+
