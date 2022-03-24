@@ -5,12 +5,29 @@
 }
 
 .titleFirstBlock {
+  font-family: Gilroy-Semibold, sans-serif;
   font-weight: 600;
   font-size: 66px;
   line-height: 110%;
   color: #202731;
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+.titleSecondBlock {
+  font-family: Gilroy-Semibold, sans-serif;
+  margin: 0;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 55px;
+}
+
+.titleCardsFeedback {
+  height: 65px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #202731;
 }
 
 /*# sourceMappingURL=Title.module.css.map */

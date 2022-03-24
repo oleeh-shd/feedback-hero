@@ -10,11 +10,11 @@ export const Title = ({title, titleClass}) => (
 );
 
 Title.defaultProps = {
-    titClass: '',
+    titleClass: '',
     title: ''
 };
 
 Title.propTypes = {
     title: PropTypes.string,
-    titClass: PropTypes.string
+    titleClass: PropTypes.string
 };

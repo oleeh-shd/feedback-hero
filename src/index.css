@@ -6,8 +6,15 @@
 }
 
 @font-face {
-    font-family: "Roboto-Light";
+    font-family: Roboto-Light;
     src: url("../src/assets/fonts/Roboto-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url("../src/assets/fonts/Gilroy-Semibold.ttf");
     font-weight: normal;
     font-style: normal;
 }
