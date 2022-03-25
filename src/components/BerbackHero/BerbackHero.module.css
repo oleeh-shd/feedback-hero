@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  flex-direction: column;
+  padding: 139px 200px 150px 200px;
+}
+.container .wrapperBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.container .wrapperBlock .wrapperQuestion {
+  margin-top: 10px;
+}
+.container .wrapperBlock .wrapperTitleDescription {
+  width: 780px;
+  height: 108px;
+}
+.container .wrapperCard {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=BerbackHero.module.css.map */

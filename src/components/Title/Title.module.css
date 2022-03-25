@@ -32,8 +32,15 @@
 
 .titleThirdBlock {
   font-family: Gilroy-Medium, sans-serif;
-  margin-top: 11px;
-  margin-bottom: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.titleCardHero {
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 35px;
+  margin-bottom: 8px;
 }
 
 /*# sourceMappingURL=Title.module.css.map */
