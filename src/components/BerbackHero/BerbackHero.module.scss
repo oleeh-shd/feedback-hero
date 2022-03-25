@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  flex-direction: column;
+  padding: 139px 200px 150px 200px;
+
+  .wrapperBlock {
+    display: flex;
+    justify-content: space-between;
+
+    .wrapperQuestion {
+      margin-top: 10px;
+    }
+
+    .wrapperTitleDescription {
+      width: 780px;
+      height: 108px;
+    }
+  }
+
+  .wrapperCard {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 150px;
+  }
+}
+
