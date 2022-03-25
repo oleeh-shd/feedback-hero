@@ -13,7 +13,9 @@ export const SecondBlock = () => {
                     <TextField text="Features" textClass="textIdentifyingBlock"/>
                 </div>
                 <div>
-                    <Title title="Why FeedbackHero?" titleClass="titleSecondBlock"/>
+                    <div className={styles.title}>
+                        <Title title="Why FeedbackHero?" titleClass="titleSecondBlock"/>
+                    </div>
                     <div className={styles.wrapperTextDescription}>
                         <TextField
                             text="Return customers with NPS service, feedback and FeedbackHero loyalty assessment."

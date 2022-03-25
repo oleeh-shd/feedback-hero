@@ -3,7 +3,7 @@ $title-color: #202731;
 .title {
   font-weight: 500;
   font-size: 46px;
-  color: #181E25;
+  color: $title-color;
 }
 
 .titleFirstBlock {
@@ -30,4 +30,10 @@ $title-color: #202731;
   font-size: 26px;
   line-height: 31px;
   color: $title-color;
+}
+
+.titleThirdBlock {
+  font-family: Gilroy-Medium, sans-serif;
+  margin-top: 11px;
+  margin-bottom: 24px;
 }

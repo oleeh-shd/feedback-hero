@@ -13,8 +13,11 @@
   padding-top: 6px;
 }
 .container .wrapperText .wrapperTextDescription {
-  width: 90%;
+  width: 80%;
   padding-top: 24px;
+}
+.container .wrapperText .title {
+  margin-right: 339px;
 }
 
 /*# sourceMappingURL=SecondBlock.module.css.map */
