@@ -1,0 +1,31 @@
+.container {
+  margin-top: 90px;
+  padding: 150px 200px 204px 200px;
+  flex-wrap: wrap;
+  background: #FCFCFC;
+}
+.container .wrapperFirstSection {
+  display: flex;
+  max-width: 1200px;
+  margin-bottom: 150px;
+}
+.container .wrapperFirstSection .wrapperText {
+  margin-top: 97px;
+  margin-right: 60px;
+}
+.container .wrapperFirstSection .wrapperText .paragraph {
+  margin-top: 20px;
+}
+.container .wrapperSecondSection {
+  display: flex;
+  max-width: 1200px;
+}
+.container .wrapperSecondSection .wrapperText {
+  margin-top: 83px;
+  margin-left: 60px;
+}
+.container .wrapperSecondSection Button {
+  margin-top: 32px;
+}
+
+/*# sourceMappingURL=ThirdBlock.module.css.map */

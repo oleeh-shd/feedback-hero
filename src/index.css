@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("../src/assets/fonts/Gilroy-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Gilroy, sans-serif;
     display: flex;

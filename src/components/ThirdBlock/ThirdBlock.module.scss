@@ -1,0 +1,36 @@
+.container {
+  margin-top: 90px;
+  padding: 150px 200px 204px 200px;
+  flex-wrap: wrap;
+  background: #FCFCFC;
+
+  .wrapperFirstSection {
+    display: flex;
+    max-width: 1200px;
+    margin-bottom: 150px;
+
+    .wrapperText {
+      margin-top: 97px;
+      margin-right: 60px;
+
+      .paragraph {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .wrapperSecondSection {
+    display: flex;
+    max-width: 1200px;
+
+    .wrapperText {
+      margin-top: 83px;
+      margin-left: 60px;
+    }
+
+    Button {
+      margin-top: 32px;
+    }
+  }
+}
+
