@@ -27,4 +27,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.titleCompanyFeedback {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(32, 39, 49, 0.5);
+}
+
 /*# sourceMappingURL=TextField.module.css.map */

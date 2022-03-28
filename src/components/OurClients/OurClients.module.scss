@@ -1,0 +1,72 @@
+.container {
+  background: #FCFCFC;
+
+  .feedbackClient {
+    padding: 145px 200px 0 200px;
+
+    .wrapperFirstSection {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 67px;
+
+      .wrapperFirstTextField {
+        margin-top: 10px;
+      }
+
+      .wrapperTitle {
+        width: 780px;
+      }
+    }
+  }
+
+  .wrapperFeedback {
+    display: flex;
+
+    .wrapperQuotes {
+      margin-left: 60px;
+    }
+
+    .wrapperTextField {
+      width: 435px;
+      height: 124px;
+      margin-left: 54px;
+
+      .descriptionClient {
+        margin-top: 81px;
+      }
+    }
+  }
+
+  .wrapperBtn {
+    display: flex;
+    margin-top: 92px;
+
+    .wrapperBtnPainted {
+      margin-left: 30px;
+    }
+  }
+
+  .wrapperCompaniesJoined {
+    padding: 142px 200px 120px 200px;
+    display: flex;
+    max-width: 1200px;
+
+    .wrapperSecondTitle {
+      width: 360px;
+      height: 165px;
+    }
+
+    .containerCardCompanies {
+      width: 68%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-left: 60px;
+    }
+  }
+}
+
+
+
+
+

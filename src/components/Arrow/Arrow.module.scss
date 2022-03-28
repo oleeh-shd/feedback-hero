@@ -1,0 +1,70 @@
+.arrow {
+  position: relative;
+  height: 7px;
+  display: inline-block;
+
+  div {
+    width: 20px;
+    height: 1px;
+    background-color: #03A8B7;
+  }
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: -3px;
+    right: 13px;
+    background-color: #03A8B7;
+    transform: rotate(-44deg);
+  }
+
+  ::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 3px;
+    right: 13px;
+    background-color: #03A8B7;
+    transform: rotate(45deg);
+  }
+}
+
+.arrowRight {
+  position: relative;
+  height: 7px;
+  display: inline-block;
+
+  div {
+    width: 20px;
+    height: 1px;
+    background-color: #F8F8F8;
+  }
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: -3px;
+    right: -1px;
+    background-color: #F8F8F8;
+    transform: rotate(37deg);
+  }
+
+  ::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 3px;
+    right: -2px;
+    background-color: #F8F8F8;
+    transform: rotate(127deg);
+  }
+}
+
+
+

@@ -1,0 +1,56 @@
+.container {
+  background: #FCFCFC;
+}
+.container .feedbackClient {
+  padding: 145px 200px 0 200px;
+}
+.container .feedbackClient .wrapperFirstSection {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 67px;
+}
+.container .feedbackClient .wrapperFirstSection .wrapperFirstTextField {
+  margin-top: 10px;
+}
+.container .feedbackClient .wrapperFirstSection .wrapperTitle {
+  width: 780px;
+}
+.container .wrapperFeedback {
+  display: flex;
+}
+.container .wrapperFeedback .wrapperQuotes {
+  margin-left: 60px;
+}
+.container .wrapperFeedback .wrapperTextField {
+  width: 435px;
+  height: 124px;
+  margin-left: 54px;
+}
+.container .wrapperFeedback .wrapperTextField .descriptionClient {
+  margin-top: 81px;
+}
+.container .wrapperBtn {
+  display: flex;
+  margin-top: 92px;
+}
+.container .wrapperBtn .wrapperBtnPainted {
+  margin-left: 30px;
+}
+.container .wrapperCompaniesJoined {
+  padding: 142px 200px 120px 200px;
+  display: flex;
+  max-width: 1200px;
+}
+.container .wrapperCompaniesJoined .wrapperSecondTitle {
+  width: 360px;
+  height: 165px;
+}
+.container .wrapperCompaniesJoined .containerCardCompanies {
+  width: 68%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+/*# sourceMappingURL=OurClients.module.css.map */

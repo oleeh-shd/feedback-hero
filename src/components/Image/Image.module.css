@@ -21,4 +21,20 @@
   height: 85px;
 }
 
+.imgClient {
+  width: 360px;
+  height: 360px;
+}
+
+.imgQuotes {
+  width: 70px;
+  height: 34px;
+}
+
+.logoCompanies {
+  width: 62%;
+  border-radius: 0;
+  height: 95px;
+}
+
 /*# sourceMappingURL=Image.module.css.map */
