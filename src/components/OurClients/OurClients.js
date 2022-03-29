@@ -43,7 +43,7 @@ export const OurClients = () => {
                                 <Arrow/>
                             </Button>
                             <div className={styles.wrapperBtnPainted}>
-                                <Button btnClass="btnPaintedRing">
+                                <Button btnClass="btnTransparentRing">
                                     <Arrow arrowClass="arrowRight"/>
                                 </Button>
                             </div>

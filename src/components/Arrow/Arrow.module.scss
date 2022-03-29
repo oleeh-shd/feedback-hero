@@ -4,8 +4,11 @@ $color-green: #03A8B7;
 .arrow {
   cursor: pointer;
   position: relative;
-  height: 1px;
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;;
 
   .line {
     position: relative;
@@ -50,16 +53,6 @@ $color-green: #03A8B7;
 }
 
 .arrowRight {
-  cursor: pointer;
-  position: relative;
-  height: 1px;
-  display: inline-block;
-
-  .line {
-    width: 20px;
-    height: 1px;
-    background: $color-white;
-  }
 
   ::after {
     content: "";
@@ -68,7 +61,7 @@ $color-green: #03A8B7;
     height: 1px;
     top: -3px;
     right: -1px;
-    background: $color-white;
+    background: $color-green;
     transform: rotate(39deg);
   }
 
@@ -79,22 +72,11 @@ $color-green: #03A8B7;
     height: 1px;
     top: 3px;
     right: -2px;
-    background: $color-white;
+    background: $color-green;
     transform: rotate(128deg);
   }
 }
 
-.arrowRight:hover > .line {
-  background: $color-green;
-}
-
-.arrowRight:hover ::after {
-  background: $color-green;
-}
-
-.arrowRight:hover ::before {
-  background: $color-green;
-}
 
 
 

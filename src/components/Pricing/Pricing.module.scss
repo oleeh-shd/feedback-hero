@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 145px 200px 150px 200px;
+  max-width: 1200px;
+
+  .wrapperPrice {
+    display: flex;
+  }
+
+  .wrapperTitle {
+    width: 775px;
+    height: 108px;
+    margin-left: 357px;
+
+    .wrapperDescription {
+      margin-top: 24px;
+    }
+  }
+}
+

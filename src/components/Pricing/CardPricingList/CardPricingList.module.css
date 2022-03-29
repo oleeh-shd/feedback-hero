@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 118px;
+  width: 100%;
+}
+.container .wrapperCard {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+/*# sourceMappingURL=CardPricingList.module.css.map */
