@@ -6,15 +6,16 @@
 
     .wrapperFirstSection {
       display: flex;
-      justify-content: space-between;
       padding-bottom: 67px;
 
       .wrapperFirstTextField {
+        width: 100px;
         margin-top: 10px;
       }
 
       .wrapperTitle {
         width: 780px;
+        margin-left: 322px;
       }
     }
   }
@@ -42,6 +43,7 @@
     margin-top: 92px;
 
     .wrapperBtnPainted {
+      display: flex;
       margin-left: 30px;
     }
   }

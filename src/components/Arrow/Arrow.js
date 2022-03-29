@@ -5,7 +5,7 @@ import styles from "./Arrow.module.scss";
 export const Arrow = ({arrowClass = ""}) => (
 
     <div className={`${styles.arrow} ${arrowClass ? styles[arrowClass] : ""}`}>
-        <div/>
+        <div className={styles.line}/>
     </div>
 );
 

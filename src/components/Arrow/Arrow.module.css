@@ -1,12 +1,14 @@
 .arrow {
+  cursor: pointer;
   position: relative;
-  height: 7px;
+  height: 1px;
   display: inline-block;
 }
-.arrow div {
+.arrow .line {
+  position: relative;
   width: 20px;
   height: 1px;
-  background-color: #03A8B7;
+  background: #03A8B7;
 }
 .arrow ::after {
   content: "";
@@ -15,8 +17,8 @@
   height: 1px;
   top: -3px;
   right: 13px;
-  background-color: #03A8B7;
-  transform: rotate(-44deg);
+  background: #03A8B7;
+  transform: rotate(-45deg);
 }
 .arrow ::before {
   content: "";
@@ -25,19 +27,32 @@
   height: 1px;
   top: 3px;
   right: 13px;
-  background-color: #03A8B7;
-  transform: rotate(45deg);
+  background: #03A8B7;
+  transform: rotate(48deg);
+}
+
+.arrow:hover > .line {
+  background: #F8F8F8;
+}
+
+.arrow:hover ::after {
+  background: #F8F8F8;
+}
+
+.arrow:hover ::before {
+  background: #F8F8F8;
 }
 
 .arrowRight {
+  cursor: pointer;
   position: relative;
-  height: 7px;
+  height: 1px;
   display: inline-block;
 }
-.arrowRight div {
+.arrowRight .line {
   width: 20px;
   height: 1px;
-  background-color: #F8F8F8;
+  background: #F8F8F8;
 }
 .arrowRight ::after {
   content: "";
@@ -46,8 +61,8 @@
   height: 1px;
   top: -3px;
   right: -1px;
-  background-color: #F8F8F8;
-  transform: rotate(37deg);
+  background: #F8F8F8;
+  transform: rotate(39deg);
 }
 .arrowRight ::before {
   content: "";
@@ -56,8 +71,20 @@
   height: 1px;
   top: 3px;
   right: -2px;
-  background-color: #F8F8F8;
-  transform: rotate(127deg);
+  background: #F8F8F8;
+  transform: rotate(128deg);
+}
+
+.arrowRight:hover > .line {
+  background: #03A8B7;
+}
+
+.arrowRight:hover ::after {
+  background: #03A8B7;
+}
+
+.arrowRight:hover ::before {
+  background: #03A8B7;
 }
 
 /*# sourceMappingURL=Arrow.module.css.map */

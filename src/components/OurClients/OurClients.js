@@ -56,10 +56,10 @@ export const OurClients = () => {
                     <Title title="Companies that have already joined us" titleClass="titleThirdBlock"/>
                 </div>
                 <div className={styles.containerCardCompanies}>
-                    {cardCompanies.map(logo => (
+                    {cardCompanies.map(({image, id}) => (
                         <CompaniesCard
-                            key={logo.id}
-                            image={logo.image}
+                            key={id}
+                            image={image}
                         />
                     ))
                     }
