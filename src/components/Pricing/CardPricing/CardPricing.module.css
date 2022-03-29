@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #C6E5FD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 44px 41px 40px 41px;
+}
+.container .containerTariff {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #E0F0FD;
+  border-radius: 5px;
+  padding: 4px 12px;
+  width: 59px;
+  height: 22px;
+}
+.container .containerPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.container .containerPrice .wrapperPrice {
+  margin-top: 26px;
+  margin-bottom: 23px;
+}
+.container .containerPrice .wrapperPriceYear {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+}
+.container .wrapperDescription {
+  width: 94%;
+  margin-bottom: 38px;
+}
+.container .wrapperTicketDescription {
+  display: flex;
+}
+.container .wrapperTicketDescription .wrapperTick {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.container .wrapperBtn {
+  margin-top: 42px;
+}
+
+/*# sourceMappingURL=CardPricing.module.css.map */

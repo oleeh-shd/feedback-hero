@@ -1,0 +1,90 @@
+$color-white: #F8F8F8;
+$color-green: #03A8B7;
+
+.arrow {
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;;
+
+  .line {
+    position: relative;
+    width: 20px;
+    height: 1px;
+    background: $color-green;
+  }
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: -3px;
+    right: 13px;
+    background: $color-green;
+    transform: rotate(-45deg);
+  }
+
+  ::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 3px;
+    right: 13px;
+    background: $color-green;
+    transform: rotate(48deg);
+  }
+}
+
+.arrow:hover > .line {
+  background: $color-white;
+}
+
+.arrow:hover ::after {
+  background: $color-white;
+}
+
+.arrow:hover ::before {
+  background: $color-white;
+}
+
+.arrowRight {
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: -3px;
+    right: -1px;
+    background: $color-green;
+    transform: rotate(39deg);
+  }
+
+  ::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 3px;
+    right: -2px;
+    background: $color-green;
+    transform: rotate(128deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

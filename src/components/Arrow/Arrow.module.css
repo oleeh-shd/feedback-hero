@@ -1,0 +1,70 @@
+.arrow {
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.arrow .line {
+  position: relative;
+  width: 20px;
+  height: 1px;
+  background: #03A8B7;
+}
+.arrow ::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: -3px;
+  right: 13px;
+  background: #03A8B7;
+  transform: rotate(-45deg);
+}
+.arrow ::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 3px;
+  right: 13px;
+  background: #03A8B7;
+  transform: rotate(48deg);
+}
+
+.arrow:hover > .line {
+  background: #F8F8F8;
+}
+
+.arrow:hover ::after {
+  background: #F8F8F8;
+}
+
+.arrow:hover ::before {
+  background: #F8F8F8;
+}
+
+.arrowRight ::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: -3px;
+  right: -1px;
+  background: #03A8B7;
+  transform: rotate(39deg);
+}
+.arrowRight ::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 3px;
+  right: -2px;
+  background: #03A8B7;
+  transform: rotate(128deg);
+}
+
+/*# sourceMappingURL=Arrow.module.css.map */

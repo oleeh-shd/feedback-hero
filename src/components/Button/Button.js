@@ -6,8 +6,8 @@ export const Button = ({children, onClick, btnClass, id}) => {
 
     return (
         <button
-            type='button'
-            className={`${styles.btnPrimary} ${btnClass ? styles[btnClass] : ''}`}
+            type="button"
+            className={`${styles.btnPrimary} ${btnClass ? styles[btnClass] : ""}`}
             onClick={onClick}
             id={id}
         >
@@ -24,9 +24,9 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-    children: '',
-    btnClass: '',
-    id: '',
+    children: "",
+    btnClass: "",
+    id: "",
     onClick: () => {
     }
 };

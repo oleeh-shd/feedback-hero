@@ -13,7 +13,6 @@ export const CardFeedbackList = () => {
                     <CardFeedback
                         key={card.id}
                         text={card.text}
-
                         image={card.image}
                         title={card.title}
                     />
