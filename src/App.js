@@ -1,7 +1,8 @@
 import React from "react";
 import {Header} from "./components/Header/Header";
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Router} from "react-router-dom";
 import {Home} from "./pages/Home/Home";
+import {Footer} from "./components/Footer/Footer";
 
 export const App = () => {
 
@@ -9,8 +10,9 @@ export const App = () => {
         <>
             <BrowserRouter>
                 <Header/>
+                <Home/>
+                <Footer/>
             </BrowserRouter>
-            <Home/>
         </>
     );
 };

@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #202731;
+  padding: 15px 200px;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
 import {Button} from "../Button/Button";
+import {Image} from "../Image/Image";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
@@ -9,7 +10,7 @@ export const Header = () => {
     return (
         <>
             <header className={styles.header}>
-                <img src={logo} alt="logo"/>
+                <Image src={logo} alt="logo" imageClass="imgLogo"/>
                 <div className={styles.link}>
                     <Link to='/'>Features</Link>
                     <Link to='/'>Pricing</Link>
