@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #F8F8F8;
+  padding: 100px 200px 100px 200px;
+}
+.container .wrapperLogo {
+  display: flex;
+  flex-direction: column;
+}
+.container .containerLinks {
+  display: flex;
+  margin-top: 78px;
+  margin-left: 125px;
+}
+.container .containerLinks .wrapperLinks {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.container .containerLinks .wrapperLinks:last-child {
+  margin-right: 0;
+}
+.container .containerLinks .wrapperLinks .mail {
+  margin-top: 12px;
+}
+.container .containerLinks .wrapperLinks a {
+  text-decoration: none;
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+  line-height: 140%;
+}
+.container .socialLogo {
+  display: flex;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=UpperFooter.module.css.map */
