@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  padding: 139px 227px 300px 200px;
+}
+.container .wrapperTitle {
+  width: 360px;
+  margin-left: 359px;
+}
+.container .wrapperTitle .wrapperText {
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.container .wrapperTitle .wrapperBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=ConnectFeedbackHero.module.css.map */

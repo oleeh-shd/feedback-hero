@@ -1,0 +1,33 @@
+.container {
+  background: #FCFCFC;
+  padding: 139px 200px 144px 200px;
+
+  .wrapperTitle {
+    display: flex;
+
+    .wrapperIdentifying {
+      margin-top: 10px;
+    }
+
+    .wrapperText {
+      margin-left: 304px;
+      width: 780px;
+
+      .wrapperTitleText {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .containerNumbers {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 420px;
+    margin-top: 54px;
+
+    .wrapperNumbers {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

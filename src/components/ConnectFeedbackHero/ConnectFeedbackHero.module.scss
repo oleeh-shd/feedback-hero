@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  padding: 139px 227px 300px 200px;
+
+  .wrapperTitle {
+    width: 360px;
+    margin-left: 359px;
+
+    .wrapperText {
+      margin-top: 24px;
+      margin-bottom: 50px;
+    }
+
+    .wrapperBtn {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

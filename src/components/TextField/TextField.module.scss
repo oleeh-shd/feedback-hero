@@ -7,23 +7,17 @@
 
 .textIdentifyingBlock {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
   color: #03A8B7;
   text-transform: uppercase;
 }
 
 .descriptionFirstBlock {
-  font-weight: 400;
   font-size: 26px;
-  line-height: 140%;
   color: rgba(24, 30, 37, 0.5);
 }
 
 .cardsFeedback {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -44,8 +38,14 @@
 }
 
 .textPriceYear {
-  font-weight: 400;
   font-size: 14px;
   line-height: 120%;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.textFeedbackNumbers {
+  font-size: 66px;
+  line-height: 77px;
+  color: #202731;
+  margin-bottom: 10px;
 }

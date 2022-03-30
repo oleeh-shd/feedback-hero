@@ -1,0 +1,29 @@
+.container {
+  background: #FCFCFC;
+  padding: 139px 200px 144px 200px;
+}
+.container .wrapperTitle {
+  display: flex;
+}
+.container .wrapperTitle .wrapperIdentifying {
+  margin-top: 10px;
+}
+.container .wrapperTitle .wrapperText {
+  margin-left: 304px;
+  width: 780px;
+}
+.container .wrapperTitle .wrapperText .wrapperTitleText {
+  margin-top: 24px;
+}
+.container .containerNumbers {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 420px;
+  margin-top: 54px;
+}
+.container .containerNumbers .wrapperNumbers {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=FeedbackHeroInNumbers.module.css.map */

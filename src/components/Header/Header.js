@@ -15,7 +15,7 @@ export const Header = () => {
                     <Link to='/'>Pricing</Link>
                     <Link to='/'>Blog</Link>
                 </div>
-                <Button>Register</Button>
+                <Button btnClass="btnRegister">Register</Button>
             </header>
             <div className={styles.line}/>
         </>
