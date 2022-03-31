@@ -15,7 +15,21 @@
 
       .paragraph {
         margin-top: 20px;
+
+        @media screen and (max-width: 360px) {
+          margin-bottom: 60px;
+        }
       }
+
+      @media screen and (max-width: 360px) {
+        margin-top: 50px;
+      }
+    }
+
+    @media screen and (max-width: 360px) {
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
     }
   }
 
@@ -26,11 +40,32 @@
     .wrapperText {
       margin-top: 83px;
       margin-left: 60px;
+
+      @media screen and (max-width: 360px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0;
+      }
     }
 
     Button {
       margin-top: 32px;
+
+      @media screen and (max-width: 360px) {
+        margin-bottom: 60px;
+      }
     }
+
+    @media screen and (max-width: 360px) {
+      max-width: 100%;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 0;
   }
 }
 

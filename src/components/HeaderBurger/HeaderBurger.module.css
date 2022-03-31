@@ -1,0 +1,97 @@
+.container {
+  display: none;
+  position: relative;
+  margin-right: 50px;
+}
+.container .burgerButtonActive,
+.container .burgerButton {
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+.container .burgerButtonActive .line,
+.container .burgerButton .line {
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  top: 13px;
+  transform: translateX(-50%);
+  background-color: #03A8B7;
+}
+.container .burgerButtonActive::before,
+.container .burgerButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 40px;
+  height: 4px;
+  background-color: #03A8B7;
+}
+.container .burgerButtonActive::after,
+.container .burgerButton::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  width: 40px;
+  height: 4px;
+  background-color: #03A8B7;
+}
+.container .burgerButtonActive {
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+.container .burgerButtonActive .line {
+  height: 0;
+}
+.container .burgerButtonActive::before {
+  transform: rotate(45deg) translateY(9px) translateX(10px);
+}
+.container .burgerButtonActive::after {
+  transform: rotate(-45deg) translateY(-9px) translateX(10px);
+}
+.container .dropDownWrapperActive,
+.container .dropDownWrapper {
+  position: absolute;
+  top: 77px;
+  right: -50px;
+  background: #03A8B7;
+  height: 0;
+  z-index: 1;
+}
+.container .dropDownWrapperActive a,
+.container .dropDownWrapper a {
+  text-transform: uppercase;
+  font-size: 25px;
+  display: block;
+  text-decoration: none;
+  color: #E0F0FD;
+  opacity: 0;
+}
+.container .dropDownWrapperActive .wrapperBtn,
+.container .dropDownWrapper .wrapperBtn {
+  display: none;
+}
+.container .dropDownWrapperActive {
+  width: 1080px;
+  height: 1200px;
+}
+.container .dropDownWrapperActive a {
+  font-size: 60px;
+  padding: 90px;
+  opacity: 1;
+}
+.container .dropDownWrapperActive .wrapperBtn {
+  margin: 90px;
+  display: block;
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=HeaderBurger.module.css.map */

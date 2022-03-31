@@ -9,6 +9,11 @@
   height: 49px;
   border-radius: 0;
 }
+@media only screen and (max-width: 360px) {
+  .imgLogo {
+    margin-left: 50px;
+  }
+}
 
 .imgFirstBlock {
   width: 697px;
@@ -52,6 +57,12 @@
   width: 300px;
   height: 300px;
   margin-left: 93px;
+}
+@media screen and (max-width: 360px) {
+  .imgConnect {
+    margin-left: 300px;
+    margin-top: 50px;
+  }
 }
 
 .imgSocialLogo {

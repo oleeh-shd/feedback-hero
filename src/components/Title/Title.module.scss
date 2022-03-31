@@ -14,6 +14,10 @@ $title-color: #202731;
   color: $title-color;
   margin-top: 0;
   margin-bottom: 30px;
+
+  @media only screen and(max-width: 360px) {
+    font-size: 85px;
+  }
 }
 
 .titleSecondBlock {
@@ -21,6 +25,11 @@ $title-color: #202731;
   margin: 0;
   font-weight: 600;
   line-height: 55px;
+
+  @media only screen and(max-width: 360px) {
+    margin-top: 20px;
+    font-size: 70px;
+  }
 }
 
 .titleCardsFeedback {
@@ -34,6 +43,12 @@ $title-color: #202731;
   font-family: Gilroy-Medium, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media only screen and(max-width: 360px) {
+    width: 75%;
+    font-size: 60px;
+    margin-left: 50px;
+  }
 }
 
 .titleCardHero {

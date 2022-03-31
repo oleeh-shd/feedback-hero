@@ -15,6 +15,16 @@
 .container .wrapperTitle .wrapperText .wrapperTitleText {
   margin-top: 24px;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperTitle .wrapperText {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperTitle {
+    flex-direction: column;
+  }
+}
 .container .containerNumbers {
   display: flex;
   justify-content: space-between;
@@ -24,6 +34,23 @@
 .container .containerNumbers .wrapperNumbers {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 360px) {
+  .container .containerNumbers .wrapperNumbers {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .containerNumbers {
+    justify-content: normal;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    margin-top: 100px;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=FeedbackHeroInNumbers.module.css.map */

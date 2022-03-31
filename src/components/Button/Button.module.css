@@ -10,6 +10,7 @@
   color: #FFFFFF;
   font-size: 14px;
   line-height: 140%;
+  cursor: pointer;
 }
 
 .btnRegister {
@@ -64,6 +65,14 @@
 .btnRequest {
   width: 194px;
   line-height: 140%;
+}
+
+.btnHeaderBurger {
+  width: 200px;
+  height: 80px;
+  background: #E0F0FD;
+  color: #03A8B7;
+  font-size: 26px;
 }
 
 /*# sourceMappingURL=Button.module.css.map */

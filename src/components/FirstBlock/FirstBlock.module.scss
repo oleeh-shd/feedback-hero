@@ -1,9 +1,14 @@
 .container {
-  width: 100%;
-  max-width: 1340px;
   display: flex;
   justify-content: space-between;
   padding: 99px 60px 24px 200px;
+
+  @media only screen and(max-width: 360px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
 }
 
 .wrapperTitle {
@@ -11,8 +16,18 @@
   display: flex;
   flex-direction: column;
   padding-top: 25px;
+
+  @media only screen and(max-width: 360px) {
+    width: 90%;
+    margin-top: 50px;
+  }
 }
 
 .wrapperImg {
   width: 52%;
+
+  @media only screen and(max-width: 360px) {
+    width: 86%;
+    margin-top: 60px;
+  }
 }

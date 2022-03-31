@@ -20,7 +20,24 @@
 
     .title {
       margin-right: 339px;
+
+      @media only screen and(max-width: 360px) {
+        margin-left: 50px;
+        margin-right: 0;
+      }
+
     }
+
+    @media only screen and(max-width: 360px) {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and(max-width: 360px) {
+    align-items: center;
+    margin-top: 100px;
+    padding: 0;
+    max-width: 100%;
   }
 }
 

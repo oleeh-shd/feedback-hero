@@ -4,6 +4,7 @@ import logo from "../../assets/images/logo.svg";
 import {Button} from "../Button/Button";
 import {Image} from "../Image/Image";
 import styles from "./Header.module.scss";
+import {HeaderBurger} from "../HeaderBurger/HeaderBurger";
 
 export const Header = () => {
 
@@ -16,7 +17,10 @@ export const Header = () => {
                     <Link to='/'>Pricing</Link>
                     <Link to='/'>Blog</Link>
                 </div>
-                <Button btnClass="btnRegister">Register</Button>
+                <div className={styles.wrapperBtn}>
+                    <Button btnClass="btnRegister">Register</Button>
+                </div>
+                <HeaderBurger/>
             </header>
             <div className={styles.line}/>
         </>

@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  max-width: 1200px;
   flex-direction: column;
   padding: 139px 200px 150px 200px;
 }
@@ -15,10 +14,31 @@
   width: 780px;
   height: 108px;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperBlock {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .container .wrapperCard {
-  max-width: 1200px;
   width: 100%;
   margin-top: 150px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperCard {
+    margin-top: 400px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    margin-top: 100px;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=BerbackHero.module.css.map */

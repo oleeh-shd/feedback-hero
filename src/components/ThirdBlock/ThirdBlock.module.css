@@ -16,6 +16,23 @@
 .container .wrapperFirstSection .wrapperText .paragraph {
   margin-top: 20px;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperFirstSection .wrapperText .paragraph {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperFirstSection .wrapperText {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperFirstSection {
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
 .container .wrapperSecondSection {
   display: flex;
   max-width: 1200px;
@@ -24,8 +41,33 @@
   margin-top: 83px;
   margin-left: 60px;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperSecondSection .wrapperText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
 .container .wrapperSecondSection Button {
   margin-top: 32px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperSecondSection Button {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperSecondSection {
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    padding: 0;
+  }
 }
 
 .wrapperTitle {

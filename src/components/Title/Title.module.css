@@ -13,12 +13,23 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 360px) {
+  .titleFirstBlock {
+    font-size: 85px;
+  }
+}
 
 .titleSecondBlock {
   font-family: Gilroy-Semibold, sans-serif;
   margin: 0;
   font-weight: 600;
   line-height: 55px;
+}
+@media only screen and (max-width: 360px) {
+  .titleSecondBlock {
+    margin-top: 20px;
+    font-size: 70px;
+  }
 }
 
 .titleCardsFeedback {
@@ -32,6 +43,13 @@
   font-family: Gilroy-Medium, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+}
+@media only screen and (max-width: 360px) {
+  .titleThirdBlock {
+    width: 75%;
+    font-size: 60px;
+    margin-left: 50px;
+  }
 }
 
 .titleCardHero {

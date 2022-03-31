@@ -13,6 +13,7 @@ $btn-font-color: #FFFFFF;
   color: $btn-font-color;
   font-size: 14px;
   line-height: 140%;
+  cursor: pointer;
 }
 
 .btnRegister {
@@ -69,4 +70,12 @@ $btn-font-color: #FFFFFF;
 .btnRequest {
   width: 194px;
   line-height: 140%;
+}
+
+.btnHeaderBurger {
+  width: 200px;
+  height: 80px;
+  background: #E0F0FD;
+  color: #03A8B7;
+  font-size: 26px;
 }
