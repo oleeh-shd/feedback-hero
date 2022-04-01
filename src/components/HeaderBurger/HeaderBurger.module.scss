@@ -59,6 +59,10 @@
 
   .dropDownWrapperActive,
   .dropDownWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 77px;
     right: -50px;
@@ -81,8 +85,6 @@
   }
 
   .dropDownWrapperActive {
-    width: 1080px;
-    height: 1200px;
 
     a {
       font-size: 60px;

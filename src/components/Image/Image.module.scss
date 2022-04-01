@@ -2,6 +2,14 @@
   width: 780px;
   height: 500px;
   border-radius: 20px;
+
+  @media screen and (max-width: 360px) {
+    width: 345px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 650px;
+  }
 }
 
 .imgLogo {
@@ -18,6 +26,14 @@
   width: 697px;
   height: 447px;
   border-radius: 15px;
+
+  @media screen and (max-width: 360px) {
+    width: 350px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 600px;
+  }
 }
 
 .imgCardsFeedback {

@@ -20,6 +20,11 @@
     margin-left: 50px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container .wrapperTitle .wrapperText {
+    width: 600px;
+  }
+}
 @media screen and (max-width: 360px) {
   .container .wrapperTitle {
     flex-direction: column;
@@ -40,6 +45,12 @@
     margin-right: 30px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container .containerNumbers {
+    justify-content: space-around;
+    margin-left: 320px;
+  }
+}
 @media screen and (max-width: 360px) {
   .container .containerNumbers {
     justify-content: normal;
@@ -50,6 +61,11 @@
   .container {
     margin-top: 100px;
     padding: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 100px 100px 150px 100px;
   }
 }
 

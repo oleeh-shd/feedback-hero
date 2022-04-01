@@ -62,5 +62,10 @@
     padding: 0;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 100px 100px 150px 100px;
+  }
+}
 
 /*# sourceMappingURL=UpperFooter.module.css.map */

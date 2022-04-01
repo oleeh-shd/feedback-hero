@@ -75,4 +75,19 @@
   margin-bottom: 24px;
 }
 
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 100px 20px 0 100px;
+  }
+  .container .wrapperSecondSection,
+.container .wrapperFirstSection {
+    max-width: 1100px;
+  }
+  .container .wrapperSecondSection .wrapperText,
+.container .wrapperFirstSection .wrapperText {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=ThirdBlock.module.css.map */

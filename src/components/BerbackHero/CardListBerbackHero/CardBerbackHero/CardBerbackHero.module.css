@@ -29,5 +29,10 @@
     width: 345px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 347px;
+  }
+}
 
 /*# sourceMappingURL=CardBerbackHero.module.css.map */

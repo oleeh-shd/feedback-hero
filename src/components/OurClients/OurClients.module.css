@@ -93,6 +93,11 @@
   justify-content: space-between;
   margin-left: 60px;
 }
+@media screen and (max-width: 1200px) {
+  .container .wrapperCompaniesJoined .containerCardCompanies {
+    margin-left: 20px;
+  }
+}
 @media screen and (max-width: 360px) {
   .container .wrapperCompaniesJoined {
     flex-direction: column;
@@ -109,6 +114,16 @@
   .container .wrapperCompaniesJoined {
     margin-top: 250px;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container .feedbackClient {
+    padding: 100px 100px 0 100px;
+  }
+
+  .container .wrapperCompaniesJoined {
+    padding: 100px 100px 120px 100px;
   }
 }
 

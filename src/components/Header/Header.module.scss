@@ -48,4 +48,10 @@ $top-color: #202731;
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 30px 20px 24px 100px;
+  }
+}
+
 

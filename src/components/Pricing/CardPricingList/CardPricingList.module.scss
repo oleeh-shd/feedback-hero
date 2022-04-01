@@ -14,4 +14,8 @@
     margin-top: 150px;
     width: 85%;
   }
+
+  @media screen and (max-width: 1200px) {
+    justify-content: space-around;
+  }
 }

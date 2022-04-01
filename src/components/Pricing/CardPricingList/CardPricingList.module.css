@@ -15,5 +15,10 @@
     width: 85%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    justify-content: space-around;
+  }
+}
 
 /*# sourceMappingURL=CardPricingList.module.css.map */

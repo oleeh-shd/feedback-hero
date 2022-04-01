@@ -3,6 +3,16 @@
   height: 500px;
   border-radius: 20px;
 }
+@media screen and (max-width: 360px) {
+  .image {
+    width: 345px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .image {
+    width: 650px;
+  }
+}
 
 .imgLogo {
   width: 200px;
@@ -19,6 +29,16 @@
   width: 697px;
   height: 447px;
   border-radius: 15px;
+}
+@media screen and (max-width: 360px) {
+  .imgFirstBlock {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .imgFirstBlock {
+    width: 600px;
+  }
 }
 
 .imgCardsFeedback {
