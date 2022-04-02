@@ -3,89 +3,89 @@
   position: relative;
   margin-right: 50px;
 }
-.container .burgerButtonActive,
-.container .burgerButton {
+.container .burgerActive,
+.container .burger {
   width: 40px;
   height: 30px;
   position: relative;
+  cursor: pointer;
 }
-.container .burgerButtonActive .line,
-.container .burgerButton .line {
+.container .burgerActive .line,
+.container .burger .line {
   width: 40px;
   height: 4px;
+  top: 14px;
   position: absolute;
-  top: 13px;
   transform: translateX(-50%);
-  background-color: #03A8B7;
+  background-color: #284749;
 }
-.container .burgerButtonActive::before,
-.container .burgerButton::before {
+.container .burgerActive::before,
+.container .burger::before {
   content: "";
   position: absolute;
   top: 0;
   left: -20px;
   width: 40px;
   height: 4px;
-  background-color: #03A8B7;
+  background-color: #284749;
 }
-.container .burgerButtonActive::after,
-.container .burgerButton::after {
+.container .burgerActive::after,
+.container .burger::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: -20px;
   width: 40px;
   height: 4px;
-  background-color: #03A8B7;
+  background-color: #284749;
 }
-.container .burgerButtonActive {
+.container .burgerActive {
   width: 40px;
-  height: 30px;
   position: relative;
+  z-index: 5;
 }
-.container .burgerButtonActive .line {
+.container .burgerActive .line {
   height: 0;
 }
-.container .burgerButtonActive::before {
+.container .burgerActive::before {
   transform: rotate(45deg) translateY(9px) translateX(10px);
+  background-color: #FCFCFC;
 }
-.container .burgerButtonActive::after {
+.container .burgerActive::after {
   transform: rotate(-45deg) translateY(-9px) translateX(10px);
+  background-color: #FCFCFC;
 }
-.container .dropDownWrapperActive,
-.container .dropDownWrapper {
+.container .menuList,
+.container .active {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding-top: 200px;
+  transition: left 0.6s ease 0s;
+  background-color: #03A8B7;
+  overflow: auto;
+}
+.container .menuList a,
+.container .active a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 77px;
-  right: -50px;
-  background: #03A8B7;
-  height: 0;
-  z-index: 1;
-}
-.container .dropDownWrapperActive a,
-.container .dropDownWrapper a {
   text-transform: uppercase;
-  font-size: 25px;
-  display: block;
+  font-size: 60px;
   text-decoration: none;
   color: #E0F0FD;
-  opacity: 0;
+  margin: 0 0 100px 0;
 }
-.container .dropDownWrapperActive .wrapperBtn,
-.container .dropDownWrapper .wrapperBtn {
-  display: none;
+.container .menuList .wrapperBtn,
+.container .active .wrapperBtn {
+  margin-left: 400px;
 }
-.container .dropDownWrapperActive a {
-  font-size: 60px;
-  padding: 90px;
-  opacity: 1;
-}
-.container .dropDownWrapperActive .wrapperBtn {
-  margin: 90px;
-  display: block;
+.container .active {
+  left: 0;
 }
 
 @media screen and (max-width: 360px) {

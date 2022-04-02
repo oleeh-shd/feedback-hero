@@ -17,12 +17,8 @@
 }
 @media screen and (max-width: 360px) {
   .container .wrapperTitle .wrapperText {
-    margin-left: 50px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .container .wrapperTitle .wrapperText {
-    width: 600px;
+    margin-left: 0;
+    width: 100%;
   }
 }
 @media screen and (max-width: 360px) {
@@ -53,7 +49,8 @@
 }
 @media screen and (max-width: 360px) {
   .container .containerNumbers {
-    justify-content: normal;
+    margin-top: 90px;
+    width: 100%;
     margin-left: 50px;
   }
 }

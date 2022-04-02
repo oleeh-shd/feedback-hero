@@ -21,13 +21,13 @@
 }
 @media screen and (max-width: 360px) {
   .container .wrapperTitle {
-    width: 340px;
-    margin-left: 50px;
+    width: 100%;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 1200px) {
   .container .wrapperTitle {
-    margin-left: 350px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 360px) {

@@ -43,6 +43,11 @@
 
     .wrapperQuotes {
       margin-left: 60px;
+
+      @media screen and (max-width: 360px) {
+        margin-left: 0;
+        margin-top: 70px;
+      }
     }
 
     .wrapperTextField {
@@ -53,20 +58,15 @@
       .descriptionClient {
         margin-top: 81px;
       }
+
+      @media screen and (max-width: 360px) {
+        width: 100%;
+      }
     }
 
     @media screen and (max-width: 360px) {
       display: flex;
-      justify-content: flex-end;
-      flex-direction: row-reverse;
-
-      .wrapperTextField {
-        margin-left: 0;
-      }
-
-      .wrapperTextField {
-        margin-left: 0;
-      }
+      flex-direction: column;
     }
   }
 
@@ -91,6 +91,10 @@
     .wrapperSecondTitle {
       width: 360px;
       height: 165px;
+
+      @media screen and (max-width: 360px) {
+        margin-top: 90px;
+      }
     }
 
     .containerCardCompanies {
@@ -99,6 +103,15 @@
       flex-wrap: wrap;
       justify-content: space-between;
       margin-left: 60px;
+
+      @media screen and (max-width: 360px) {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+      }
 
       @media screen and (max-width: 1200px) {
         margin-left: 20px;
@@ -111,17 +124,17 @@
       .wrapperSecondTitle {
         width: 100%;
       }
-
-      .containerCardCompanies {
-        width: 98%;
-        margin-left: 0;
-      }
     }
 
     @media screen and (max-width: 360px) {
-      margin-top: 250px;
+      margin-top: 450px;
       padding: 0;
     }
+  }
+
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 

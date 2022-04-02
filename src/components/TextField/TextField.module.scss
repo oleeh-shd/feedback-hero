@@ -5,7 +5,7 @@
   color: rgba(0, 0, 0, 0.75);
 
   @media only screen and(max-width: 360px) {
-    font-size: 31px;
+    font-size: 45px;
   }
 }
 
@@ -15,7 +15,7 @@
   text-transform: uppercase;
 
   @media only screen and(max-width: 360px) {
-    font-size: 25px;
+    font-size: 38px;
   }
 }
 
@@ -25,13 +25,17 @@
 
   @media only screen and(max-width: 360px) {
     width: 75%;
-    font-size: 40px;
+    font-size: 56px;
   }
 }
 
 .cardsFeedback {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
+
+  @media only screen and(max-width: 360px) {
+    font-size: 35px;
+  }
 }
 
 .titleCompanyFeedback {
@@ -39,6 +43,10 @@
   font-size: 16px;
   line-height: 100%;
   color: rgba(32, 39, 49, 0.5);
+
+  @media screen and (max-width: 360px) {
+    font-size: 40px;
+  }
 }
 
 .textTariff {

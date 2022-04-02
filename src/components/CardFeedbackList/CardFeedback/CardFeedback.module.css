@@ -22,11 +22,34 @@
   margin-top: 30px;
   height: 60px;
 }
+@media only screen and (max-width: 360px) {
+  .container .wrapperCard .text {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .container .wrapperCard {
+    justify-content: flex-start;
+  }
+}
 .container .line {
   position: absolute;
   transform: translate(0px, 49px);
   width: 80px;
   border: 1px solid #03A8B7;
+}
+@media only screen and (max-width: 360px) {
+  .container .line {
+    position: static;
+    transform: translate(0px, 55px);
+    width: 70%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    width: 52%;
+    height: 760px;
+  }
 }
 
 /*# sourceMappingURL=CardFeedback.module.css.map */

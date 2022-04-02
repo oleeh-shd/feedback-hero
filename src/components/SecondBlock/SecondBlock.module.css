@@ -16,12 +16,16 @@
   width: 80%;
   padding-top: 24px;
 }
+@media only screen and (max-width: 360px) {
+  .container .wrapperText .wrapperTextDescription {
+    width: 100%;
+  }
+}
 .container .wrapperText .title {
   margin-right: 339px;
 }
 @media only screen and (max-width: 360px) {
   .container .wrapperText .title {
-    margin-left: 50px;
     margin-right: 0;
   }
 }
