@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["FirstBlock.module.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE","file":"FirstBlock.module.css"}
+{"version":3,"sourceRoot":"","sources":["FirstBlock.module.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;AAEA;EALF;IAMI;IACA;IACA;IACA;;;;AAIJ;EACE;EACA;EACA;EACA;;AAEA;EANF;IAOI;IACA;;;;AAIJ;EACE;;AAEA;EAHF;IAII;IACA;;;;AAIJ;EACE;IACE","file":"FirstBlock.module.css"}

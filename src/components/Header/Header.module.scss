@@ -1,11 +1,20 @@
 $top-color: #202731;
 
 .header {
-  max-width: 1340px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 60px 24px 200px;
+
+  @media only screen and(max-width: 360px) {
+    height: 120px;
+    padding: 0;
+  }
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid rgba(32, 39, 49, 0.2);
 }
 
 .link {
@@ -26,9 +35,23 @@ $top-color: #202731;
       padding-right: 0;
     }
   }
+
+  @media only screen and(max-width: 360px) {
+    justify-content: flex-start;
+  }
 }
 
-.line {
-  width: 100%;
-  border-bottom: 1px solid rgba(32, 39, 49, 0.2);
+@media only screen and(max-width: 360px) {
+  .wrapperBtn,
+  .link {
+    display: none;
+  }
 }
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 30px 20px 24px 100px;
+  }
+}
+
+

@@ -13,12 +13,23 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 360px) {
+  .titleFirstBlock {
+    font-size: 90px;
+  }
+}
 
 .titleSecondBlock {
   font-family: Gilroy-Semibold, sans-serif;
   margin: 0;
   font-weight: 600;
   line-height: 55px;
+}
+@media only screen and (max-width: 360px) {
+  .titleSecondBlock {
+    margin-top: 20px;
+    font-size: 90px;
+  }
 }
 
 .titleCardsFeedback {
@@ -27,11 +38,23 @@
   line-height: 31px;
   color: #202731;
 }
+@media only screen and (max-width: 360px) {
+  .titleCardsFeedback {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
 
 .titleThirdBlock {
   font-family: Gilroy-Medium, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+}
+@media only screen and (max-width: 360px) {
+  .titleThirdBlock {
+    width: 100%;
+    font-size: 80px;
+  }
 }
 
 .titleCardHero {
@@ -40,11 +63,21 @@
   margin-top: 35px;
   margin-bottom: 8px;
 }
+@media only screen and (max-width: 360px) {
+  .titleCardHero {
+    font-size: 37px;
+  }
+}
 
 .nameClient {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+}
+@media screen and (max-width: 360px) {
+  .nameClient {
+    font-size: 40px;
+  }
 }
 
 .titlePrice {

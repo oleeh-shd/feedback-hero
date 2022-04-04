@@ -14,6 +14,10 @@ $title-color: #202731;
   color: $title-color;
   margin-top: 0;
   margin-bottom: 30px;
+
+  @media only screen and(max-width: 360px) {
+    font-size: 90px;
+  }
 }
 
 .titleSecondBlock {
@@ -21,6 +25,11 @@ $title-color: #202731;
   margin: 0;
   font-weight: 600;
   line-height: 55px;
+
+  @media only screen and(max-width: 360px) {
+    margin-top: 20px;
+    font-size: 90px;
+  }
 }
 
 .titleCardsFeedback {
@@ -28,12 +37,22 @@ $title-color: #202731;
   font-size: 26px;
   line-height: 31px;
   color: $title-color;
+
+  @media only screen and(max-width: 360px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
 }
 
 .titleThirdBlock {
   font-family: Gilroy-Medium, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media only screen and(max-width: 360px) {
+    width: 100%;
+    font-size: 80px;
+  }
 }
 
 .titleCardHero {
@@ -41,12 +60,20 @@ $title-color: #202731;
   line-height: 140%;
   margin-top: 35px;
   margin-bottom: 8px;
+
+  @media only screen and(max-width: 360px) {
+    font-size: 37px;
+  }
 }
 
 .nameClient {
   font-weight: 600;
   font-size: 16px;
-  line-height: 100%
+  line-height: 100%;
+
+  @media screen and (max-width: 360px) {
+    font-size: 40px;
+  }
 }
 
 .titlePrice {

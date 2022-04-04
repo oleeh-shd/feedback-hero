@@ -8,6 +8,14 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperLogo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 .container .containerLinks {
   display: flex;
   margin-top: 78px;
@@ -31,9 +39,46 @@
   font-size: 16px;
   line-height: 140%;
 }
+@media screen and (max-width: 360px) {
+  .container .containerLinks .wrapperLinks a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .containerLinks .wrapperLinks {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .containerLinks {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
 .container .socialLogo {
   display: flex;
   margin-top: 30px;
+}
+@media screen and (max-width: 360px) {
+  .container .socialLogo {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 100px 100px 150px 100px;
+  }
 }
 
 /*# sourceMappingURL=UpperFooter.module.css.map */

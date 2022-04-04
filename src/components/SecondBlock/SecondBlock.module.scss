@@ -16,12 +16,41 @@
     .wrapperTextDescription {
       width: 80%;
       padding-top: 24px;
+
+      @media only screen and(max-width: 360px) {
+        width: 100%;
+      }
     }
 
     .title {
       margin-right: 339px;
+
+      @media only screen and(max-width: 360px) {
+        margin-right: 0;
+      }
+    }
+
+    @media only screen and(max-width: 360px) {
+      flex-direction: column;
     }
   }
+
+  @media only screen and(max-width: 360px) {
+    align-items: center;
+    margin-top: 100px;
+    padding: 0;
+    max-width: 100%;
+  }
 }
+
+@media only screen and(max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+    padding: 100px 20px 0 100px;
+  }
+}
+
+
+
 
 

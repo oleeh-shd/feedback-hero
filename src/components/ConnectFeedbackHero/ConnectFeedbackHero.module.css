@@ -14,5 +14,23 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperTitle {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 100px 100px 150px 100px;
+  }
+}
 
 /*# sourceMappingURL=ConnectFeedbackHero.module.css.map */

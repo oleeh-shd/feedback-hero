@@ -9,5 +9,11 @@
   border-radius: 15px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 360px) {
+  .container {
+    width: 70%;
+    height: 200px;
+  }
+}
 
 /*# sourceMappingURL=CompaniesCard.module.css.map */

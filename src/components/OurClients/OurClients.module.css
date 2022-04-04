@@ -12,15 +12,43 @@
   width: 100px;
   margin-top: 10px;
 }
+@media screen and (max-width: 360px) {
+  .container .feedbackClient .wrapperFirstSection .wrapperFirstTextField {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
 .container .feedbackClient .wrapperFirstSection .wrapperTitle {
   width: 780px;
   margin-left: 322px;
+}
+@media screen and (max-width: 360px) {
+  .container .feedbackClient .wrapperFirstSection .wrapperTitle {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .feedbackClient .wrapperFirstSection {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .feedbackClient {
+    margin-top: 120px;
+    padding: 0;
+  }
 }
 .container .wrapperFeedback {
   display: flex;
 }
 .container .wrapperFeedback .wrapperQuotes {
   margin-left: 60px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperFeedback .wrapperQuotes {
+    margin-left: 0;
+    margin-top: 70px;
+  }
 }
 .container .wrapperFeedback .wrapperTextField {
   width: 435px;
@@ -30,9 +58,25 @@
 .container .wrapperFeedback .wrapperTextField .descriptionClient {
   margin-top: 81px;
 }
+@media screen and (max-width: 360px) {
+  .container .wrapperFeedback .wrapperTextField {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperFeedback {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container .wrapperBtn {
   display: flex;
   margin-top: 92px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperBtn {
+    margin-top: 26px;
+  }
 }
 .container .wrapperBtn .wrapperBtnPainted {
   display: flex;
@@ -41,11 +85,15 @@
 .container .wrapperCompaniesJoined {
   padding: 142px 200px 120px 200px;
   display: flex;
-  max-width: 1200px;
 }
 .container .wrapperCompaniesJoined .wrapperSecondTitle {
   width: 360px;
   height: 165px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperCompaniesJoined .wrapperSecondTitle {
+    margin-top: 90px;
+  }
 }
 .container .wrapperCompaniesJoined .containerCardCompanies {
   width: 68%;
@@ -53,6 +101,51 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 60px;
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperCompaniesJoined .containerCardCompanies {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container .wrapperCompaniesJoined .containerCardCompanies {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperCompaniesJoined {
+    flex-direction: column;
+  }
+  .container .wrapperCompaniesJoined .wrapperSecondTitle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container .wrapperCompaniesJoined {
+    margin-top: 450px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container .feedbackClient {
+    padding: 100px 100px 0 100px;
+  }
+
+  .container .wrapperCompaniesJoined {
+    padding: 100px 100px 120px 100px;
+  }
 }
 
 /*# sourceMappingURL=OurClients.module.css.map */

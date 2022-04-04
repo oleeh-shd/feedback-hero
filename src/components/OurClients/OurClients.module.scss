@@ -11,12 +11,30 @@
       .wrapperFirstTextField {
         width: 100px;
         margin-top: 10px;
+
+        @media screen and (max-width: 360px) {
+          width: 100%;
+          margin-top: 60px;
+        }
       }
 
       .wrapperTitle {
         width: 780px;
         margin-left: 322px;
+
+        @media screen and (max-width: 360px) {
+          margin-left: 0;
+        }
       }
+
+      @media screen and (max-width: 360px) {
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 360px) {
+      margin-top: 120px;
+      padding: 0;
     }
   }
 
@@ -25,6 +43,11 @@
 
     .wrapperQuotes {
       margin-left: 60px;
+
+      @media screen and (max-width: 360px) {
+        margin-left: 0;
+        margin-top: 70px;
+      }
     }
 
     .wrapperTextField {
@@ -35,12 +58,25 @@
       .descriptionClient {
         margin-top: 81px;
       }
+
+      @media screen and (max-width: 360px) {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 360px) {
+      display: flex;
+      flex-direction: column;
     }
   }
 
   .wrapperBtn {
     display: flex;
     margin-top: 92px;
+
+    @media screen and (max-width: 360px) {
+      margin-top: 26px;
+    }
 
     .wrapperBtnPainted {
       display: flex;
@@ -51,11 +87,14 @@
   .wrapperCompaniesJoined {
     padding: 142px 200px 120px 200px;
     display: flex;
-    max-width: 1200px;
 
     .wrapperSecondTitle {
       width: 360px;
       height: 165px;
+
+      @media screen and (max-width: 360px) {
+        margin-top: 90px;
+      }
     }
 
     .containerCardCompanies {
@@ -64,9 +103,51 @@
       flex-wrap: wrap;
       justify-content: space-between;
       margin-left: 60px;
+
+      @media screen and (max-width: 360px) {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+      }
+
+      @media screen and (max-width: 1200px) {
+        margin-left: 20px;
+      }
+    }
+
+    @media screen and (max-width: 360px) {
+      flex-direction: column;
+
+      .wrapperSecondTitle {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 360px) {
+      margin-top: 450px;
+      padding: 0;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+@media screen and (max-width: 1200px) {
+  .container .feedbackClient {
+    padding: 100px 100px 0 100px;
+  }
+
+  .container .wrapperCompaniesJoined {
+    padding: 100px 100px 120px 100px;
+  }
+}
+
 
 
 

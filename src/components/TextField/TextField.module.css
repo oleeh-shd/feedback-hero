@@ -4,21 +4,42 @@
   line-height: 140%;
   color: rgba(0, 0, 0, 0.75);
 }
+@media only screen and (max-width: 360px) {
+  .text {
+    font-size: 45px;
+  }
+}
 
 .textIdentifyingBlock {
   font-weight: 500;
   color: #03A8B7;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 360px) {
+  .textIdentifyingBlock {
+    font-size: 38px;
+  }
+}
 
 .descriptionFirstBlock {
   font-size: 26px;
   color: rgba(24, 30, 37, 0.5);
 }
+@media only screen and (max-width: 360px) {
+  .descriptionFirstBlock {
+    width: 75%;
+    font-size: 56px;
+  }
+}
 
 .cardsFeedback {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 360px) {
+  .cardsFeedback {
+    font-size: 35px;
+  }
 }
 
 .titleCompanyFeedback {
@@ -26,6 +47,11 @@
   font-size: 16px;
   line-height: 100%;
   color: rgba(32, 39, 49, 0.5);
+}
+@media screen and (max-width: 360px) {
+  .titleCompanyFeedback {
+    font-size: 40px;
+  }
 }
 
 .textTariff {
@@ -56,6 +82,11 @@
   margin-top: 24px;
   margin-bottom: 41px;
 }
+@media screen and (max-width: 360px) {
+  .textFooter {
+    margin: 30px;
+  }
+}
 
 .titleFooterLink {
   font-weight: 500;
@@ -63,10 +94,20 @@
   color: #000000;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 360px) {
+  .titleFooterLink {
+    font-size: 40px;
+  }
+}
 
 .footer {
   font-size: 14px;
   color: #F8F8F8;
+}
+@media screen and (max-width: 360px) {
+  .footer {
+    font-size: 25px;
+  }
 }
 
 /*# sourceMappingURL=TextField.module.css.map */
